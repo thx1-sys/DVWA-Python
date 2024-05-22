@@ -1,0 +1,2 @@
+sqlmap -r ../SQLmap/req3.txt --dbs
+sqlmap -r ../SQLmap/req3.txt --dbs

